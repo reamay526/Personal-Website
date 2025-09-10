@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html mayie="me">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MY PERSONAL WEBSITE</title>
+  <style>
+    style {
+      margin:0; 
+      padding:0; 
+      box-sizing:border-box;
+    }
+    body {
+      font-family: 'Times New Roman','Arial Narrow Bold'; 
+      line-height:4mm;
+      background:rgb(14, 167, 167); 
+      color: rgb(9, 9, 9);
+    }
+    header {
+      background:linear-gradient(360deg,rgb(201, 238, 238),rgb(59, 59, 68));
+      color:#2c0136; 
+      text-align:center; 
+      padding:20px;
+    }
+    header img {
+      width:150px; 
+      height:190px; 
+      object-fit:cover; 
+      border-radius:50%; 
+      border:2px solid black; 
+      margin-bottom:15px;
+    }
+
+    nav {
+      display:flex; 
+      justify-content:center; 
+      flex-wrap:wrap; 
+      background:rgb(152, 131, 157);
+    }
+    nav a {
+      color:rgb(2, 0, 0); 
+      text-decoration: black; 
+      padding: 10px 25px;
+    }
+    nav a:hover {
+      background:yellow;
+    }
+
+    section {
+      max-width:700px; 
+      margin: 8px; 
+      padding:8px 5px;
+    }
+    h1 {
+      color: rgb(87, 9, 87);
+    }
+    h2 {
+      text-align:center; 
+      margin: 5px; 
+      color:rgb(56, 2, 2);
+    }
+    .card {
+      background: whitesmoke; 
+      padding:8px; 
+      margin:5px 8px; 
+      border-radius:8px; 
+      box-shadow:0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      background:#431111; 
+      color:#ccc; 
+      text-align: center; 
+      padding: 1px;
+    }
+
+    @media(max-width: 100px){
+      header h1 {font-size:1rem;}
+      section {padding:2px 10px;}
+    }
+  </style>
+</head>
+<body>
+  
+  <header>
+    <img src="mayie.jpg"alt="Profile">
+    <h1>REA MAY M. VILLANUEVA</h1>
+    <p>A Computer Science Student | Aspiring Web Developer</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#resume">Resume</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#interests">Interests</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="card">
+    <p><b>Hi, I’m Rea May! I’m currently studying Computer Science.Where I’ve developed a love for coding, design, and solving real-world problems. I enjoy creating projects that are both practical and creative, and I’m always eager to learn new skills and technologies.</b></p>
+  </div>
+</section>
+
+  <section id="resume">
+    <h2>Resume</h2>
+    <div class="card">
+      <h3>Education</h3>
+      <p>JUNIOR HIGHSCHOOL STUDENT - LICEO DE BALENO</p>
+      <P>ABM SENIOR HIGHSCHOOL STUDENT - MASBATE NATIONAL COMPREHENSIVE HIGHSCHOOL</P>
+      <p>B.S. COMPUTER SCIENCE - DEBESMSCAT (3rd Year)</p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="card">HTML & CSS (Beginner)</div>
+    <div class="card">Basic Python</div>
+    <div class="card">Problem Solving, Teamwork</div>
+  </section>
+
+  <section id="experience">
+    <h2>Experience</h2>
+    <div class="card">
+      <h3> As a Student, I have worked on: </h3>
+        <p>A Simple Personal Websites</p>
+        <p>Group Research Project in School</p>
+  </section>
+
+  <section id="interests">
+    <h2>Interests</h2>
+    <div class="card">Web Development &#x1F310; , Mobile Apps &#x1F4F1; , Artificial Intelligence &#X1F916;</div>
+    <div class="card">Reading 📚, Travel &#127949;, Movies &#127916;</div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <div class="card">
+      <p>Email: <a href="https://mail.google.com/mail/?view=cm&to=reavillanueva76@gmail.com" target="_blank">reavillanueva76@gmail.com</a></p>
+      <p>GitHub: <a href="https://github.com/reamay526" target="_blank">https://github.com reamay526</a></p>
+    <p>Phone: <a href="#"> +63 963 714 1465 </a></p> </div>
+  </section>
+
+
+  <footer>
+    <p>&copy; 2025 Rea May | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
